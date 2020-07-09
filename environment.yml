@@ -1,4 +1,12 @@
 channels:
   - conda-forge
+name: python 3.7
 dependencies:
   - appmode
+  -python=3.7
+  -numpy
+  pip:
+    -tensorflow
+    -pandas
+    -sklearn
+    -fancyimpute
