@@ -4,8 +4,10 @@ channels:
 dependencies:
   - appmode
   - numpy
-  - pip
-  - tensorflow
   - pandas
-  - sklearn
-  - fancyimpute
+  - tensorflow
+  - pip
+  - pip:
+    - sklearn
+    - fancyimpute
+
