@@ -5,7 +5,7 @@ dependencies:
   - appmode
   - numpy
   - pandas
-  - tensorflow
+  - tensorflow=2.2
   - pip
   - pip:
     - sklearn
