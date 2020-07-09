@@ -1,12 +1,11 @@
+name: test-environment
 channels:
   - conda-forge
-name: python 3.7
 dependencies:
   - appmode
-  -python=3.7
-  -numpy
+  - numpy
   pip:
-    -tensorflow
-    -pandas
-    -sklearn
-    -fancyimpute
+    - tensorflow
+    - pandas
+    - sklearn
+    - fancyimpute
